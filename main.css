@@ -78,7 +78,6 @@ nav ul a:hover{
 .btn{
     padding: 2px;
     display: inline-block;
-    border: 3px solid var(--lightblue);
     margin-right: 1rem;
     align-self: center;
 }
@@ -450,6 +449,7 @@ nav{
     margin: 10px;
     width: 150px;
     height: 170px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .hexa article{
